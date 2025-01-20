@@ -1,0 +1,140 @@
+,0
+0,<!DOCTYPE html>
+1,"<html lang=""en"">"
+2,<head>
+3,  <title>Wine Dataset | Kaggle</title>
+4,"  <meta charset=""utf-8"" />"
+5,"    <meta name=""robots"" content=""index, follow"" />"
+6,"  <meta name=""description"" content="" A subset of wines from around the world."" />"
+7,"    <meta name=""keywords"" content=""earth and nature,education,alcohol"" />"
+8,"    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"">"
+9,"  <meta name=""theme-color"" content=""#008ABC"" />"
+10,"  <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" type=""text/javascript"">"
+11,"    window[""pageRequestStartTime""] = 1736765572373;"
+12,"    window[""pageRequestEndTime""] = 1736765572464;"
+13,"    window[""initialPageLoadStartTime""] = new Date().getTime();"
+14,  </script>
+15,"  <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" id=""gsi-client"" src=""https://accounts.google.com/gsi/client"" async defer></script>"
+16,"  <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="">window.KAGGLE_JUPYTERLAB_PATH = ""/static/assets/jupyterlab-v4/jupyterlab-index-d4a76378853a841e47a9.html"";</script>"
+17,"  <link rel=""preconnect"" href=""https://www.google-analytics.com"" crossorigin=""anonymous"" /><link rel=""preconnect"" href=""https://stats.g.doubleclick.net"" /><link rel=""preconnect"" href=""https://storage.googleapis.com"" /><link rel=""preconnect"" href=""https://apis.google.com"" />"
+18,"    <link href=""/static/images/favicon.ico"" rel=""shortcut icon"" type=""image/x-icon"" id=""dynamic-favicon"" />"
+19,"  <link rel=""manifest"" href=""/static/json/manifest.json"" crossorigin=""use-credentials"">"
+20,"  <link rel=""preconnect"" href=""https://fonts.gstatic.com"" crossorigin />"
+21,"  <link href=""https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"""
+22,"    rel=""preload"" as=""style"" />"
+23,"  <link href=""https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"""
+24,"    rel=""preload"" as=""style"" />"
+25,"  <link href=""https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"""
+26,"    rel=""stylesheet"" media=""print"" id=""async-google-font-1"" />"
+27,"  <link href=""https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"""
+28,"    rel=""stylesheet"" media=""print"" id=""async-google-font-2"" />"
+29,"  <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" type=""text/javascript"">"
+30,"    const styleSheetIds = [""async-google-font-1"", ""async-google-font-2""];"
+31,    styleSheetIds.forEach(function (id) {
+32,"      document.getElementById(id).addEventListener(""load"", function() {"
+33,"        this.media = ""all"";"
+34,      });
+35,    });
+36,  </script>
+37,"    <link rel=""canonical"" href=""https://www.kaggle.com/datasets/elvinrustam/wine-dataset"" />"
+38,"    <link rel=""stylesheet"" type=""text/css"" href=""/static/assets/vendor.css?v=dne"" />"
+39,"    <link rel=""stylesheet"" type=""text/css"" href=""/static/assets/app.css?v=5bf3c9f45d06b890b0a5"" />"
+40,"      <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="">"
+41,"        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement(""style"");"
+42,"        d.appendChild(s.createTextNode(""""));s.head.appendChild(d);d=d.sheet;"
+43,"        y=y.map(x => d.insertRule(x + ""{ opacity: 0 !important }""));"
+44,        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+45,"        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;"
+46,"        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}"
+47,    </script>
+48,"    <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="">"
+49,        window.dataLayer = window.dataLayer || [];
+50,        function gtag() { dataLayer.push(arguments); }
+51,"        gtag('js', new Date());"
+52,"        gtag('config', 'G-T7QHS60L4Q', {"
+53,"            'optimize_id': 'GTM-52LNT9S',"
+54,"            'displayFeaturesTask': null,"
+55,"            'send_page_view': false,"
+56,            'content_group1': 'Datasets'
+57,        });
+58,    </script>
+59,"    <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" async src=""https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q""></script>"
+60,"    <meta property=""og:url"" content=""https://www.kaggle.com/datasets/elvinrustam/wine-dataset"" />"
+61,"    <meta property=""og:title"" content=""Wine Dataset"" />"
+62,"    <meta property=""og:description"" content="" A subset of wines from around the world."" />"
+63,"    <meta property=""og:type"" content=""website"" />"
+64,"    <meta property=""og:image"" content=""https://storage.googleapis.com/kaggle-datasets-images/4216619/7273508/a81ae586f1c99060f361020fbf15fd6c/dataset-card.jpg?t=2023-12-24-17-14-07"" />"
+65,"    <meta property=""fb:app_id"" content=""2665027677054710"" />"
+66,"    <meta name=""twitter:card"" content=""summary"" />"
+67,"    <meta name=""twitter:site"" content=""@kaggledatasets"" />"
+68,"  <meta name=""twitter:site"" content=""@Kaggle"" /> "
+69,"            <script nonce=""KmH+r1LcqJj8fieEIEBOrg=="" type=""application/ld+json"">{""@context"":""http://schema.org/"",""@type"":""Dataset"",""name"":""Wine Dataset"",""description"":""This is a subset of wines from around the world.\n\nFeatures:\n- **Title**: The name or title of the wine.\n- **Description**: A brief textual description providing additional details about the wine.\n- **Price**: The cost of the wine.\n- **Capacity**: The volume or size of the wine bottle.\n- **Grape**: The primary grape variety used in making the wine.\n- **Secondary Grape Varieties**: Additional grape varieties used in the wine blend.\n- **Closure:** The type of closure used for the bottle.\n- **Country**: The country where the wine is produced.\n- **Unit**:\n- **Characteristics**: The \""Characteristics\"" feature encapsulates the unique and discernible flavors and aromas present in a particular wine.\n- **Per bottle / case / each**: The quantity of wine included per unit (bottle, case, or each) sold.\n- **Type**: The general category of the wine.\n- **ABV**: The percentage of alcohol content in the wine.\n- **Region**: The geographic region where the grapes used to make the wine are grown.\n- **Style**: This feature describes the overall sensory experience and characteristics of the wine.\n- **Vintage**: The year the grapes used to make the wine were harvested.\n- **Appellation**: A legally defined and protected geographical indication used to identify where the grapes for a wine were grown.\n "",""url"":""https://www.kaggle.com/elvinrustam/wine-dataset"",""version"":2,""keywords"":[""subject, earth and nature"",""subject, people and society, education"",""subject, health and fitness, food, alcohol""],""license"":{""@type"":""CreativeWork"",""name"":""CC0: Public Domain"",""url"":""https://creativecommons.org/publicdomain/zero/1.0/""},""identifier"":[""4216619""],""includedInDataCatalog"":{""@type"":""DataCatalog"",""name"":""Kaggle"",""url"":""https://www.kaggle.com""},""creator"":{""@type"":""Person"",""name"":""Elvin Rustamov"",""url"":""https://www.kaggle.com/elvinrustam"",""image"":""https://storage.googleapis.com/kaggle-avatars/thumbnails/11169812-kg.jpeg?t=2024-11-17-20-25-30""},""distribution"":[{""@type"":""DataDownload"",""requiresSubscription"":true,""encodingFormat"":""zip"",""fileFormat"":""zip"",""contentUrl"":""https://www.kaggle.com/datasets/elvinrustam/wine-dataset/download?datasetVersionNumber=2"",""contentSize"":""315829 bytes""}],""commentCount"":1,""dateModified"":""2023-12-24T17:04:51.45Z"",""discussionUrl"":""https://www.kaggle.com/elvinrustam/wine-dataset/discussion"",""alternateName"":"" A subset of wines from around the world."",""isAccessibleForFree"":true,""thumbnailUrl"":""https://storage.googleapis.com/kaggle-datasets-images/4216619/7273508/a81ae586f1c99060f361020fbf15fd6c/dataset-card.jpg?t=2023-12-24-17-14-07"",""interactionStatistic"":[{""@type"":""InteractionCounter"",""interactionType"":""http://schema.org/CommentAction"",""userInteractionCount"":1},{""@type"":""InteractionCounter"",""interactionType"":""http://schema.org/DownloadAction"",""userInteractionCount"":3320},{""@type"":""InteractionCounter"",""interactionType"":""http://schema.org/ViewAction"",""userInteractionCount"":15807},{""@type"":""InteractionCounter"",""interactionType"":""http://schema.org/LikeAction"",""userInteractionCount"":51}]}</script>"
+70,"    <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="">window['useKaggleAnalytics'] = true;</script>"
+71,"  <script id=""gapi-target"" nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" src=""https://apis.google.com/js/api.js"" defer"
+72,    async></script>
+73,"  <script nonce=""KmH+r1LcqJj8fieEIEBOrg=="" src=""/static/assets/runtime.js?v=9e5514276d1a11426215""></script>"
+74,"  <script nonce=""KmH+r1LcqJj8fieEIEBOrg=="" src=""/static/assets/vendor.js?v=102e0be1a19ee4bff0e1""></script>"
+75,"  <script nonce=""KmH+r1LcqJj8fieEIEBOrg=="" src=""/static/assets/app.js?v=91e218db490ac4467f2e""></script>"
+76,"    <script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" type=""text/javascript"">"
+77,      window.kaggleStackdriverConfig = {
+78,"        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',"
+79,"        projectId: 'kaggle-161607',"
+80,"        service: 'web-fe',"
+81,"        version: 'ci',"
+82,        userId: '0'
+83,      }
+84,    </script>
+85,</head>
+86,<body>
+87,<main>
+88,"<div id=""site-container""></div>"
+89,"<div id=""site-body"" class=""hide"">"
+90,"<script nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="" type=""text/x-mathjax-config"">"
+91,    MathJax.Hub.Config({
+92,"    ""HTML-CSS"": {"
+93,"    preferredFont: ""TeX"","
+94,"    availableFonts: [""STIX"", ""TeX""],"
+95,    linebreaks: {
+96,    automatic: true
+97,"    },"
+98,    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+99,"    },"
+100,    tex2jax: {
+101,"    inlineMath: [[""\\("", ""\\)""], [""\\\\("", ""\\\\)""]],"
+102,"    displayMath: [[""$$"", ""$$""], [""\\["", ""\\]""]],"
+103,"    processEscapes: true,"
+104,"    ignoreClass: ""tex2jax_ignore|dno"""
+105,"    },"
+106,    TeX: {
+107,    noUndefined: {
+108,    attributes: {
+109,"    mathcolor: ""red"","
+110,"    mathbackground: ""#FFEEEE"","
+111,"    mathsize: ""90%"""
+112,    }
+113,    }
+114,"    },"
+115,    Macros: {
+116,"    href: ""{}"""
+117,"    },"
+118,"    skipStartupTypeset: true,"
+119,"    messageStyle: ""none"","
+120,"    extensions: [""Safe.js""],"
+121,    });
+122,</script>
+123,"<script type=""text/javascript"" nonce=""KmH&#x2B;r1LcqJj8fieEIEBOrg=="">"
+124,"  window.addEventListener(""DOMContentLoaded"", () => {"
+125,"    const head = document.getElementsByTagName(""head"")[0];"
+126,"    const lib = document.createElement(""script"");"
+127,"    lib.type = ""text/javascript"";"
+128,"    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this"
+129,"    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details."
+130,"    const forceProdHost = window.location.hostname === ""localhost"";"
+131,"    lib.src = `${forceProdHost ? ""https://www.kaggle.com"" : """"}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;"
+132,    head.appendChild(lib);
+133,  });
+134,</script>
+135,</div>
+136,  </main>
+137,</body>
+138,</html>
