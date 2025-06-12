@@ -8,7 +8,7 @@ def heart_equation(x, k):
     term2 = 0.9 * np.sin(k * x) * np.sqrt(np.clip(3 - x**2, 0, None))
     return term1 + term2
 
-x = np.linspace(-np.sqrt(3), np.sqrt(3), 1000)
+x = np.linspace(-np.sqrt(5), np.sqrt(5), 100000)
 
 initial_k = 29.09
 y = heart_equation(x, initial_k)
